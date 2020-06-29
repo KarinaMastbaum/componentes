@@ -48,7 +48,7 @@ class CardPage extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Ok'), 
               )
-           ]
+            ]
           )
         ]
       )
@@ -77,8 +77,8 @@ class CardPage extends StatelessWidget {
          //image: NetworkImage('https://data.1freewallpapers.com/download/south-island-new-zealand-landscape-reflection-river-forest-fog-mist-high-resolution-images.jpg')
       //),
           Container(
-           padding: EdgeInsets.all(10.0),
-          child: Text('Salzburg, Austria')
+            padding: EdgeInsets.all(10.0),
+            child: Text('Salzburg, Austria')
           )
         ],
       ),
@@ -120,9 +120,6 @@ class CardPage extends StatelessWidget {
             fit: BoxFit.cover, // determina el espacio de la imagen
           ),
 
-       //image(
-         //image: NetworkImage('https://data.1freewallpapers.com/download/south-island-new-zealand-landscape-reflection-river-forest-fog-mist-high-resolution-images.jpg')
-      //),
           Container(
            padding: EdgeInsets.all(10.0),
           child: Text('Neuschwanstein castle, Alemania')

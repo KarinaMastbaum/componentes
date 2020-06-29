@@ -91,7 +91,7 @@ class _SliderPageState extends State<SliderPage> {
 
   Widget _crearSwitch() {                           // Para bloquear el Slider, barrita tipo alarma para desactivar 
 
-     return SwitchListTile(
+    return SwitchListTile(
       title: Text('Bloquear Slider'),
       value: _bloquearCheck,
       onChanged: (valor) {
@@ -100,7 +100,7 @@ class _SliderPageState extends State<SliderPage> {
           _bloquearCheck = valor;
         });
       },
-      );  
+    );  
   }
 
 

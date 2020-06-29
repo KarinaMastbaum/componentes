@@ -24,11 +24,11 @@ class HomePageTemp extends StatelessWidget {
         
         final tempWidget = ListTile(
           title: Text(opcion)
-          );
+        );
           lista..add( tempWidget )
                 ..add(Divider(color: Colors.lightBlue, height: 15, ));
 
-        }
+      }
      return lista;
   }
 
@@ -48,6 +48,7 @@ class HomePageTemp extends StatelessWidget {
         ],
       );
         
-        }).toList();
+    }).toList();
   }
+  
 }

@@ -23,7 +23,7 @@ class _ListaPageState extends State<ListaPage> {
 
     _scrollController.addListener((){
 
-      if( _scrollController.position.pixels == _scrollController.position.maxScrollExtent) {     //Si la poscion de pixeles es igual al scrollController/ Maxscrollextend es el largo maximo de pixeles, estamos al final de la pagina
+      if( _scrollController.position.pixels == _scrollController.position.maxScrollExtent) {     //Si la posicion de pixeles es igual al scrollController/ Maxscrollextend es el largo maximo de pixeles, estamos al final de la pagina
        // _agregar10();
        fetchData(); 
       }

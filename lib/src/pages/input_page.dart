@@ -143,7 +143,7 @@ class InputPage extends StatefulWidget {
           ),
           onTap: (){
 
-          FocusScope.of(context).requestFocus(new FocusNode());  //apenas hago click en el eleento se quieta el foco
+          FocusScope.of(context).requestFocus(new FocusNode());  //apenas hago click en el elemento se quieta el foco
           
           _selectDate ( context );
           
