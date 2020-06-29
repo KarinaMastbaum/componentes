@@ -2,8 +2,14 @@
 
 _Este es segundo proyecto que hice junto al curso de Flutter: Tu guia completa de desarrollo para iOS y Android, dictado por Fernando Herrera en Udemy. En esta app experimente con los widgets mas utilizados de Flutter_
 
+_Alertas, Avatar, Cards y Animated container_
 ![](preview1.gif)
+
+_Formulario/Input_
 ![](preview2.gif)
+
+_Sliders, Checks, Listas y Scroll_
+![](preview3.gif)
 
 ## Pruebas ⚙️
 
